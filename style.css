@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    height:55px;
+    background:;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    border-bottom:1px solid #ddd;
+    margin-bottom:;
+   /* box-shadow:0px 1px #ddd;*/
+    
+}
+    
+.body{
+    height:50%;
+    background:;
+    overflow-y:scroll;
+    border-bottom:2px solid #ccc;
+    position:relative;
+}
+
+.video-taker{
+    height:268px;
+    background:black;
+    border-bottom:9px solid #eee;
+    position:relative;
+}
+
+nav{
+    position:fixed ;
+    bottom:0;
+    width:100%;
+    height:55px;
+    background:white;
+    display:flex;
+    border-top:2px solid #ddd;
+    justify-content:center;
+    align-items:center ;
+}
+.profiles{
+    height:50px;
+    display:flex;
+    align-items:center ;
+    justify-content:center;
+/*    border-bottom:2px solid #ccc;*/
+    
+}
+
+.first{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:98.7%;
+    height:100%;
+    background:;
+}
+
+.search-taker{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:white;
+    width:72%;
+    height:65%;
+    border-radius:25px;
+    margin-right:2px;
+   /* border:1px solid #ddd;*/
+    box-shadow:0px 2.5px 13px #ddd,
+               0px -2.5px 13px #ddd;
+}
+.filter{
+    height:85%;
+    width:16%;
+    background:;
+    font-size:1em;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    color:#000;
+    border-left:1px solid #ddd;
+}
+
+.search-box{
+    height:100%;
+    font-size:14px;
+    border:none;
+    outline:none;
+    padding:3px;
+}
+
+.search-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:8%;
+    color:#ccc;
+    margin-left:3px;
+    font-size:14px;
+}
+
+.logo{
+    margin-left:4px;
+    font-size:22px;
+    font-weight:bold;
+    font-family:sans-serif;
+    display:flex;
+    align-items:center;
+    letter-spacing:-1px;
+    color:#68d;
+    font-family:sofia;
+}
+
+.all{
+    width:98.7%;
+    background:;
+    height:40px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.username{
+    display:block;
+    font-size:0.8em;
+    font-weight:bold;
+    color:#000;
+}
+
+.dates{
+    display:block;
+    font-size: 0.75em;
+    color:#000;
+    
+}
+
+.profile-image{
+    height:32px;
+    width:32px;
+    border-radius:50%;
+    background-image:url(" https://cuteprofilepictures.weebly.com/uploads/2/1/8/5/21856578/1428310_orig.jpg ");
+    margin-left:3px;
+    background-position:center ;
+    background-size:cover;
+}
+
+.details{
+    margin-right:100px;
+}
+    
+.options{
+    width:30px;
+    height:100%;
+    background:;
+    display:flex;
+    align-items:center;
+    justify-content:center ;
+}
+
+b{
+    font-size:16px;
+    color:black;
+}
+
+#side-btns{
+    position:fixed;
+    right:0;
+    height:289px;
+    width:55px;
+    background:;
+    display:none;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#numshower{
+    background:rgba(0,0,0,0.4);
+    color:white;
+    height:15px;
+    width:62%;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:3px;
+    font-size:0.75em;
+}
+
+#comment-trust{
+    display:flex;
+    flex-direction:column;
+    background:;
+    width:100%;
+    height:110px;
+}
+
+#on-off{
+    height:10px;
+    width:10px;
+    right:-2px;
+    top:-6px;
+    background:#4f6;
+    position:absolute ;
+    
+    border-radius:50%;
+}
+
+.fa-commenting{
+    font-size:35px;
+    color:#aaa;
+    margin-bottom:4px;
+}
+
+#comment-trust{
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+    background:;
+    justify-content:space-between;
+}
+
+#comment-n-online{
+    position:relative;
+    background:;
+    height:45px;
+}
+
+#trust{
+    width:30px;
+    padding:5px;
+    box-sizing:padding-box;
+    height:30px;
+    display:flex;
+    align-items:center;
+    margin-top:40%;
+    justify-content:center;
+    background:blue;
+    color:white;
+    border-radius:50%;
+    font-size:0.85em;
+}
+
+.fa-ellipsis-v{
+    font-size:13px;
+    color:#888;
+}
+
+
+.icons-taker{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+        width:85%;
+        height:80%;
+    border-radius:20px;
+    background:white;
+}
+.icons-taker i{
+    font-size:23px;
+    color:#444;
+}
+
+.icons-taker i:nth-child(4){
+    color:#333;
+}
+
+.vid-btns{
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:37px;
+    bottom:0;
+    width:100%;
+    margin-right:6px;
+    background:black;
+}
+
+.buy-btn{
+    width:25%;
+    height:76%;
+    border-radius:12px;
+    color:white;
+    background:#2d7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    font-size:0.86em;
+    margin-left:6px;
+}
+
+.red-btn, .blue-btn, .brown-btn{
+    width:20px;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+}
+
+.vid-colors{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:35%;
+    color:white;
+    font-size:0.35em;
+    margin-right:10px;
+}
+
+.red-btn{
+    background:red;
+}
+
+.blue-btn{
+    background:blue;
+}
+
+.brown-btn{
+    background:brown;
+}
+
+.video{
+    width:100%;
+    background-image:url(" https://carwow-uk-wp-3.imgix.net/Volvo-XC40-white-scaled.jpg?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=10&w=460 ");
+    height:220px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
